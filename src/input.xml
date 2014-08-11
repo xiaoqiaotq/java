@@ -1,0 +1,13 @@
+<xml version="1.0">
+	<input >
+		<![CDATA[
+				  ISNULL(VWD.FK_WORK_ORDER,'') fkWorkOrder,
+		  ISNULL(VWD.FK_WORK_ORDER_NO,'') fkWorkOrderNo,
+		  ISNULL(VWD.FK_HISTORY_NO,'') fkHistoryNo,
+		  ISNULL(VWD.DESIGN_INFO_ID,'') designInfoId,
+		  ISNULL(VDI.FK_REVISION_NO,'') revisionNo,
+		  ISNULL(VWD.PRODUCED_DATE,'') producedDate
+			
+		]]>
+	</input>
+</xml>
