@@ -8,9 +8,9 @@ public class TestInterrupt implements Runnable {
 				Thread.sleep(5000);
 				System.out.println("running");
 			}catch(Exception e)
-			{
+			{ 
 			   e.printStackTrace();
-			   System.err.println("³öÏÖÒì³£....");
+			   System.err.println("ï¿½ï¿½ï¿½ï¿½ï¿½ì³£....");
 			}
 		}
 	
