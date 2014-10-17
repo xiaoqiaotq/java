@@ -13,6 +13,12 @@
 	<classpathentry kind="lib" path="lib/ojdbc6.jar"/>
 	<classpathentry kind="lib" path="lib/ognl-3.0.6.jar" sourcepath="C:/Documents and Settings/Administrator/.m2/repository/ognl/ognl/3.0.6/ognl-3.0.6-sources.jar"/>
 	<classpathentry kind="lib" path="lib/javassist-3.4.GA.jar"/>
-	<classpathentry kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-1.6"/>
+	<classpathentry kind="lib" path="lib/gson-2.2.4.jar"/>
+	<classpathentry kind="lib" path="lib/netty-all-4.0.23.Final.jar" sourcepath="D:/My Documents/Downloads/netty-4.0.23.Final/jar/all-in-one/netty-all-4.0.23.Final-sources.jar">
+		<attributes>
+			<attribute name="source_encoding" value="UTF-8"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER"/>
 	<classpathentry kind="output" path="bin"/>
 </classpath>

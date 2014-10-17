@@ -25,7 +25,7 @@
 		<house-keeping-test-sql>select CURRENT_DATE</house-keeping-test-sql>
 	</proxool>
 	<proxool>
-		<alias>AFTERSERVICEDB</alias>
+		<alias>sqlserver</alias>
 		<driver-url>jdbc:sqlserver://127.0.0.1:1433; DatabaseName=NWQCData</driver-url>
 		<driver-class>com.microsoft.sqlserver.jdbc.SQLServerDriver</driver-class>
 		<driver-properties>

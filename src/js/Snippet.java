@@ -7,17 +7,17 @@ import org.junit.Test;
 
 public class Snippet {
 	/** 
-	 * simple,Ä¬ÈÏjava.*°üÖĞµÄAPIÒÑ¾­µ¹Èëµ½engineÖĞ¡£Äã¿ÉÒÔÊ¹ÓÃÄÇĞ©API 
+	 * simple,Ä¬ï¿½ï¿½java.*ï¿½ï¿½ï¿½Ğµï¿½APIï¿½Ñ¾ï¿½ï¿½ï¿½ï¿½ëµ½engineï¿½Ğ¡ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Ê¹ï¿½ï¿½ï¿½ï¿½Ğ©API 
 	 * @throws Exception 
 	 */  
 	@Test
 	public  void invoke1() throws Exception{  
 	    ScriptEngineManager engineManager = new ScriptEngineManager();  
 	    ScriptEngine engine = engineManager.getEngineByName("javascript");  
-	    //¸ù¾İ¡°½Å±¾ÓïÑÔÃû³Æ¡±»ñÈ¡Ö´ĞĞÒıÇæ£¬java±¾ÉíÄ¬ÈÏÖ»Ö§³Öjavascript£¬¶ÔÓÚÆäËû½Å±¾£¬¿ÉÒÔ  
-	    //Ê¹ÓÃµÚÈı·½°ü(apache bsf,²»¹ı²»ÊÇºÜºÃÓÃ)  
-	    //getEngineByName·½·¨Ã¿´Î¶¼»á´´½¨Ò»¸öĞÄµÄEngine¶ÔÏó  
-	    //java.lang°üÄ¬ÈÏÒÑ¾­µ¼Èë  
+	    //ï¿½ï¿½İ¡ï¿½ï¿½Å±ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Æ¡ï¿½ï¿½ï¿½È¡Ö´ï¿½ï¿½ï¿½ï¿½ï¿½æ£¬javaï¿½ï¿½ï¿½ï¿½Ä¬ï¿½ï¿½Ö»Ö§ï¿½ï¿½javascriptï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Å±ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½  
+	    //Ê¹ï¿½Ãµï¿½ï¿½ï¿½ï¿½(apache bsf,ï¿½ï¿½ï¿½ï¿½ï¿½ÇºÜºï¿½ï¿½ï¿½)  
+	    //getEngineByNameï¿½ï¿½ï¿½ï¿½Ã¿ï¿½Î¶ï¿½ï¿½á´´ï¿½ï¿½Ò»ï¿½ï¿½ï¿½Äµï¿½Engineï¿½ï¿½ï¿½ï¿½  
+	    //java.langï¿½ï¿½Ä¬ï¿½ï¿½ï¿½Ñ¾ï¿½ï¿½ï¿½ï¿½ï¿½  
 	    String script = "var message = 'This is javascript.';println(java.lang.System.currentTimeMillis());var total = 2;println(total.toSource())";  
 	    engine.put("messagea", this);
 	    engine.eval(script);  

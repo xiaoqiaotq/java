@@ -19,7 +19,7 @@ public class AutoGenerateCode {
 	@Test
 	public void table2javaBean() throws SQLException{
 		Connection conn=DbUtils.getConn();
-		String table="T_WORK_ORDER_DESIGN";
+		String table="T_WORK_ORDER_PRODUCTION_TECH";
 		PreparedStatement ps=conn.prepareStatement("select * from "+table);
 		ResultSet rs=ps.executeQuery();
 		ResultSetMetaData rsmd=rs.getMetaData();

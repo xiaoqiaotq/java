@@ -41,7 +41,7 @@ public class DbUtils {
 		
 	}
 	public static Connection getConn(){
-		return getConn("mysql");
+		return getConn("sqlserver");
 	}
 	public static DataSource getDataSource(){
 		return dataSource;
